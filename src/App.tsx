@@ -72,7 +72,6 @@ function App() {
                 <li>опыт деплоя через Heroku, Netlify, Vercel, Surge</li>
             </ul>
         </p>
-        <hr/>
       </header>
     </div>
   );
