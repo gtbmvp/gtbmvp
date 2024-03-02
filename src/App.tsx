@@ -18,9 +18,6 @@ function App() {
         <span style={{color:"red"}}>Цели после обучения:</span> убедиться, что React всё таки умирает, и для себя для души начать изучать rust/zig и htmx;
         <br/>
         <span style={{color:"red"}}>Через 3 года:</span> коммерческая разработка на технологиях "для души".
-              
-              <br/>
-
         <b>Frontend</b>
             <ul>
                 <li>ES5/ES6+</li>
