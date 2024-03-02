@@ -4,13 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className='App'>
+      <header className='App-header'>
+        <img src={logo} className='App-logo' alt="logo" />
         <p>
              <ul>
             <li>
-              <span style={{ color: "red" }}>О себе:</span> Свитчер с завода,
+              <span style={{ color: 'red' }}>О себе:</span> Свитчер с завода,
               буквально. Образование инфобез. Красные дипломы. В 2018 осознал,
               что занимаюсь не тем, чем хочу и занялся самообучением. После 5
               лет обучения вкатился в крупную IT компанию через стажировку.
@@ -19,16 +19,16 @@ function App() {
               топ-3 банка, топ-3 мобильных оператора, etc). После месяца
               стажировки получил оффер сразу мидла. Работаю 9 мес.
               <br />
-              <span style={{ color: "red" }}>Цели на обучение:</span> закрыть
+              <span style={{ color: 'red' }}>Цели на обучение:</span> закрыть
               пробелы по React и его экосистеме, если где-то имеются, стиснув
               зубы использовать nvim в качестве ide, чтобы прокачаться в нём;
               <br />
-              <span style={{ color: "red" }}>Цели после обучения:</span>{" "}
+              <span style={{ color: 'red' }}>Цели после обучения:</span>
               убедиться, что React всё таки умирает, и для себя для души начать
               изучать rust/zig и htmx;
               <br />
-              <span style={{ color: "red" }}>Через 3 года:</span> коммерческая
-              разработка на технологиях "для души".
+              <span style={{ color: 'red' }}>Через 3 года:</span> коммерческая
+              разработка на технологиях 'для души'.
             </li>
 
             <li>
@@ -87,7 +87,7 @@ function App() {
                   используемыми другими разработчиками
                 </li>
                 <li>
-                  {" "}
+                  
                   Дополнительно: viewport, logical pixel buckets, density
                   independent pixel, решение проблем resolution switching/art
                   direction
