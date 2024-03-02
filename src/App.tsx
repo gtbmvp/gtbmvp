@@ -18,10 +18,10 @@ function App() {
         <span style={{color:"red"}}>Цели после обучения:</span> убедиться, что React всё таки умирает, и для себя для души начать изучать rust/zig и htmx;
         <br/>
         <span style={{color:"red"}}>Через 3 года:</span> коммерческая разработка на технологиях "для души".
-        
-        
-        <hr/>
-         <b>Frontend</b>
+              
+              <br/>
+
+        <b>Frontend</b>
             <ul>
                 <li>ES5/ES6+</li>
                 <li>Typescript</li>
@@ -29,7 +29,7 @@ function App() {
                 <li>Redux</li>
                 <li>React Router</li>
             </ul>
-         <b>Backend</b>
+        <b>Backend</b>
             <ul>
                 <li>Node.js</li>
                 <li>NPM</li>
