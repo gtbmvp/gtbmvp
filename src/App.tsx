@@ -58,7 +58,6 @@ function App() {
                 <li>браузерные политики SOP и CORS</li>
                 <li>сетевые запросы (XMLHttpRequest, fetch, axios, long polling, websocket, server sent events)</li>
                 <li>хранение данных в браузере (cookie, localstorage, sessionstorage)</li>
-                <li>SQL</li>
               </ul>
             </li>
 
