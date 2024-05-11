@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import InputModal from './features/InputModal/InputModal';
+
 function App() {
-    return <div className="App">123</div>;
+    return <InputModal />;
 }
 
 export default App;
