@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from 'src/shared/ui/Button/Button';
+import Button from '../../shared/ui/Button/Button';
 
 interface IOperationDetails {
     date: Date;

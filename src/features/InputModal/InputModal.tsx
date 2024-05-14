@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Button from 'src/shared/ui/Button/Button';
-import Modal from 'src/shared/ui/Modal/Modal';
-import TextInput from 'src/shared/ui/TextInput/TextInput';
+import React, { FC, useState } from 'react';
+import TextInput from '../../shared/ui/TextInput/TextInput';
+import Button from '../../shared/ui/Button/Button';
+import Modal from '../../shared/ui/Modal/Modal';
 
-const InputModal = () => {
+const InputModal: FC = () => {
     const [inputValue, setInputValue] = useState('');
     const [visible, setVisible] = useState(false);
 
