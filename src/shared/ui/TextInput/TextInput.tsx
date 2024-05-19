@@ -21,7 +21,7 @@ const TextInput: FC<ITextInput> = ({ value, onChange, placeholder }) => {
             placeholder={placeholder || ''}
             value={inputValue}
             onChange={handleChange}
-            className="p-2 shadow rounded-lg"
+            className="p-2 shadow rounded-lg dark:shadow-white"
         />
     );
 };

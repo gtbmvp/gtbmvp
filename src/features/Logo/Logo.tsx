@@ -1,10 +1,14 @@
 import React from 'react';
+import { useTheme } from '../../app/ThemeProvider';
 
 const Logo = () => {
+    const { theme } = useTheme();
+
     return (
         <a href="#">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
+                fill={`${theme === 'light' ? 'black' : 'white'}`}
                 fillRule="evenodd"
                 strokeLinejoin="round"
                 strokeMiterlimit="2"

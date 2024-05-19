@@ -7,9 +7,9 @@ interface ILayout {
 
 const Layout: React.FC<ILayout> = ({ children }) => {
     return (
-        <div className="min-h-screen flex-col">
+        <div className="min-h-screen flex-col dark:bg-gray-700">
             <Header />
-            <div className="px-4 grow">{children}</div>
+            <div className="p-4 grow">{children}</div>
         </div>
     );
 };
