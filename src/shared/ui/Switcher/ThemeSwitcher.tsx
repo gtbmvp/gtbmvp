@@ -3,7 +3,7 @@ import React from 'react';
 import { useTheme } from '../../../app/ThemeProvider';
 
 const ThemeSwitcher = () => {
-    const { theme, toggleTheme } = useTheme();
+    const { toggleTheme } = useTheme();
 
     return (
         <svg
@@ -12,11 +12,10 @@ const ThemeSwitcher = () => {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke={`${theme === 'light' ? 'black' : 'white'}`}
             strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="icon icon-tabler icons-tabler-outline icon-tabler-moon cursor-pointer"
+            className="stroke-cyan-800 dark:stroke-yellow-400 icon icon-tabler icons-tabler-outline icon-tabler-moon cursor-pointer"
             onClick={toggleTheme}
         >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
