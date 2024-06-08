@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useTheme } from '../../../app/ThemeProvider';
 
-const ThemeSwitcher = () => {
+const ThemeSwitch = () => {
     const { toggleTheme } = useTheme();
 
     return (
@@ -15,7 +15,7 @@ const ThemeSwitcher = () => {
             strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="stroke-cyan-800 dark:stroke-yellow-400 icon icon-tabler icons-tabler-outline icon-tabler-moon cursor-pointer"
+            className="stroke-cyan-800 dark:stroke-yellow-400 icon icon-tabler icons-tabler-outline icon-tabler-moon cursor-pointer mr-2"
             onClick={toggleTheme}
         >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -24,4 +24,4 @@ const ThemeSwitcher = () => {
     );
 };
 
-export default ThemeSwitcher;
+export default ThemeSwitch;

@@ -5,13 +5,18 @@ import { ThemeProvider } from './app/ThemeProvider';
 import InputModal from './features/InputModal/InputModal';
 import Layout from './widgets/Layout/Layout';
 
+import { LocalizationInitiator } from './app/Localization/LocalizationInitiator';
+
 function App() {
     return (
-        <ThemeProvider>
-            <Layout>
-                <InputModal />
-            </Layout>
-        </ThemeProvider>
+        <>
+            <LocalizationInitiator />
+            <ThemeProvider>
+                <Layout>
+                    <InputModal />
+                </Layout>
+            </ThemeProvider>
+        </>
     );
 }
 
