@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTheme } from '../../app/ThemeProvider';
 
 const Logo = () => {
     return (
