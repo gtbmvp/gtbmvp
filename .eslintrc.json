@@ -22,10 +22,7 @@
     "parserOptions": {
         "ecmaVersion": "latest"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
+    "plugins": ["react", "@typescript-eslint"],
     "rules": {
         "@typescript-eslint/no-var-requires": 0,
         "@typescript-eslint/triple-slash-reference": "error",
@@ -37,13 +34,8 @@
             "version": "detect"
         },
         "import/resolver": {
-            "node": {
-                "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".ts",
-                    ".tsx"
-                ]
+            "webpack": {
+                "config": "webpack.config.js"
             }
         }
     }

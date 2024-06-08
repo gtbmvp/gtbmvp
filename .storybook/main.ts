@@ -6,6 +6,7 @@ const config = {
         '@storybook/addon-interactions',
         '@storybook/preset-scss',
         '@storybook/addon-mdx-gfm',
+        'storybook-tailwind-dark-mode',
         {
             name: '@storybook/addon-postcss',
             options: {
